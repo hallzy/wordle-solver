@@ -1,0 +1,4 @@
+wordle
+words.txt
+*.o
+*.hi
