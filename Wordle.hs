@@ -57,5 +57,5 @@ main = do
 
     let words = filter ((== 5) . length) $ lines rawWords
 
-    ans <- programLoop ("stare" : words)
+    ans <- programLoop ("crane" : words)
     putStrLn $ "Answer: " ++ ans
